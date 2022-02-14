@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/textoInicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inicial"
+        android:layout_centerHorizontal="true"
+        android:textSize="45sp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textSize="35sp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="600dp"
+        android:hint="@string/texto1" />
+
+    <ImageView
+        android:id="@+id/alien"
+        android:layout_width="210dp"
+        android:layout_height="253dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="95dp"
+        app:srcCompat="@drawable/alien" />
+    <Button
+        android:id="@+id/botonAlien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/pulsa"
+        />
+    <Button
+        android:id="@+id/botonToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/show"
+        />
+</RelativeLayout>

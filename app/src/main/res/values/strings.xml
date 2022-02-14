@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ANDROID_Java_Logics</string>
     <string name="texto1">Hola acá </string>
+    <string name="inicial">Hola, bienvenido a esta activity</string>
+    <string name="pulsa">Pulsa aquí</string>
+    <string name="show">Mostrar Mensaje</string>
 </resources>
